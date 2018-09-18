@@ -16,4 +16,4 @@ import Joshua from '@le17i/joshua'
 Vue.use(Joshua)
 ```
 
-** Exemple**: [codesandbox](https://xp45xnp574.codesandbox.io/)
+**Exemple**: [codesandbox](https://xp45xnp574.codesandbox.io/)
