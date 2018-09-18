@@ -1,14 +1,15 @@
-import Vue from 'vue'
-import Footer from './Footer'
-import Toolbar from './Toolbar'
+import JoshuaFooter from './Footer'
+import JoshuaToolbar from './Toolbar'
 
 const Components = {
-  Footer,
-  Toolbar
+  JoshuaFooter,
+  JoshuaToolbar
 }
 
-Object.keys(Components).forEach(name => {
-  Vue.component(name, Components[name])
-})
+const install = function(Vue) {
+  Object.keys(Components).forEach(name => {
+    Vue.component(name, Components[name])
+  })
+}
 
-export default Components
+export default install
