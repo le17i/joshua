@@ -1,10 +1,9 @@
 {
   "name": "@le17i/joshua",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name joshua ./src/components/index.js",
-    "publish": "npm build && npm publish --access public",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -52,5 +51,7 @@
     "public/*",
     "*.json",
     "*.js"
-  ]  
+  ],
+  "main": "./dist/joshua.common.js",
+  "style": "./dist/joshua.css"
 }
