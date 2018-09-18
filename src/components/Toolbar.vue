@@ -1,6 +1,7 @@
 <template lang="pug">
   .toolbar
     span.logo-text {{logoText}}
+  </div>
 </template>
 <script>
   export default {
