@@ -1,7 +1,9 @@
+import JoshuaButton from './Button'
 import JoshuaFooter from './Footer'
 import JoshuaToolbar from './Toolbar'
 
 const Components = {
+  JoshuaButton,
   JoshuaFooter,
   JoshuaToolbar
 }
